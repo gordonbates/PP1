@@ -9,9 +9,12 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
     background-color: rgb(5, 5, 34);
     margin: 0;
 }
+
+/* Parallax effect using background and foreground wrapped in container that scrolls instead of the body */
 
 .wrapper {
     height: 100vh;
@@ -48,7 +51,7 @@ header {
 }
 
 .title {
-   
+
     font-size: 2rem;
     color: white;
     text-shadow: 0 0 5px rgb(5, 5, 34);
@@ -58,7 +61,21 @@ header {
 section {
     font-size: 2rem;
     padding: 0rem;
-    background-color: #333;
+    background-color: #252525;
     color: white;
 
 }
+
+/* heading and logo */
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#logo {
+    float: center;
+    font-size: 280%;
+}
+
