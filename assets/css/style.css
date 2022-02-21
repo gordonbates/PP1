@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    background-color: rgb(2, 2, 26);
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    background-color: rgb(5, 5, 34);
     margin: 0;
 }
 
@@ -38,9 +48,10 @@ header {
 }
 
 .title {
-    font-size: 5rem;
-    color: rgb(253, 71, 87);
-    text-shadow: 0 0 5px black;
+   
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0 0 5px rgb(5, 5, 34);
     text-align: center;
 }
 
