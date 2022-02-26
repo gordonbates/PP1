@@ -10,13 +10,11 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-    background-color: rgb(5, 5, 34);
-    margin: 0;
 }
 
-/* Parallax effect using background and foreground wrapped in container that scrolls instead of the body */
+/* hero scroll container holding the background, foreground & welcome title */
 
-.wrapper {
+/*.wrapper {
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
@@ -66,16 +64,79 @@ section {
 
 }
 
+*/
+
+
 /* heading and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
+    color: #252525;
 }
 
 #logo {
-    float: center;
+    float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
+.main-sect {
+    padding: 30px 0 0 30px;
+
+}
+
+/* nav links */
+
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* footer styling */
+
+footer {
+    height: 150px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 260%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
