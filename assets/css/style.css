@@ -1,189 +1,187 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 body {
-    
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    /* color: #3a3a3a; */
-    background-color: black;    
+  background: url("../images/moon.png") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  /* color: #3a3a3a; */
+  background-color: black;
 }
 
 /* hero scroll container holding the background, foreground & welcome title */
 
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: url("../images/moon.png") no-repeat;
-    background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 .site_title {
-    height: 10vh;
-    width: 100vw;
-    justify-self: center;
-    align-self: center;
-    color: white;
+  width: 100vw;
+  justify-self: center;
+  align-self: center;
+  color: white;
+  text-align: center;
 }
 
 
 .astronaut {
-    background: url("../images/astronaut.png") no-repeat;
-    height: 25vh;
-    width: 100vw;
+  background: url("../images/astronaut.png") no-repeat;
+  height: 100vh;
+  width: 50vw;
+  background-size: contain;
+  justify-self: center;
+  align-self: center;
 }
 
 .blank {
-    height: 25vh;
-    width: 100vw;
+  height: 40vh;
+  width: 100vw;
 }
 
 #para {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    transform-style: preserve-3d;
-    z-index: -1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
 }
 
 .background {
-    transform: translateZ(-10px) scale(2);
+  transform: translateZ(-10px) scale(2);
 }
 
 .foreground {
-    transform: translateZ(-5px) scale(1.5);
+  transform: translateZ(-5px) scale(1.5);
 }
 
 .background,
 .foreground {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    z-index: -1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .title {
 
-    font-size: 2rem;
-    color: white;
-    text-shadow: 0 0 5px rgb(5, 5, 34);
-    text-align: center;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0 0 5px rgb(5, 5, 34);
+  text-align: center;
 }
 
 
 
 .info {
-    font-size: 2rem;
-    padding: 2rem;
-    background-color: black;
-    color: white;
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: black;
+  color: white;
 }
 
 /* heading and logo */
 
 h1,
 h2 {
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    /* color: #252525; */
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  /* color: #252525; */
 }
 
 /* nav links */
 nav {
-    color: white;
+  color: white;
 }
 
 
 .home-bar {
-    display:  flex;
-    flex-direction: row-reverse;
-    /* font-size: 2rem; */
-    padding: 0rem;
-    /* margin: 5px; */
-    background-color: #252525;
-    color: white;
-    font-size: 130%;
-    font-family: Oswald, sans-serif;
+  display: flex;
+  flex-direction: row-reverse;
+  /* font-size: 2rem; */
+  padding: 0rem;
+  /* margin: 5px; */
+  background-color: #252525;
+  color: white;
+  font-size: 130%;
+  font-family: Oswald, sans-serif;
 }
 
 .navbar {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
+
+  display: flex;
+  justify-content: space-between;
+  color: white;
 }
 
 .brand_logo {
-    justify-self: flex-start;
-    align-self: flex-start;
+  justify-self: flex-start;
+  align-self: flex-start;
+  color: white;
+
 }
 
 .menu {
-    justify-self: flex-end;
-    align-self: flex-end;
+  justify-self: flex-end;
+  align-self: flex-end;
 }
 
 .menu_item {
-    display: inline;
-    margin-right: 50px;
+  display: inline;
+  margin-right: 50px;
+  color: white;
+}
+
+.menu_item:hover {
+  animation: .1s linear both menu_hover_effect;
 }
 
 
-#menu>li {
-    color: white;
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-
-
+a {
+  color: white;
 }
 
-#menu,
-#logo {
-    color: black;
-    /* line-height: 75px; */
-}
+@keyframes menu_hover_effect {
+  from {
+    color: blue;
+  }
 
-@keyframes animated_color {
-    from {
-        color: blue;
-    }
-
-    to {
-        color: orange;
-        font-size: larger;
-    }
+  to {
+    color: orange;
+    font-size: larger;
+  }
 }
 
 /* footer styling */
 
 footer {
-    height: 10px;
+  height: 10px;
 }
 
 .social-media {
-    text-align: center;
-} 
+  text-align: center;
+}
 
 .social-media>li {
-    display: inline;
+  display: inline;
 }
 
 
 .social-media i {
-    font-size: 260%;
-    margin: 1%;
-    padding: 5%;
-    color: white;
-    text-shadow: 0 0 5px rgb(5, 5, 34);
-	}
+  font-size: 260%;
+  margin: 1%;
+  padding: 5%;
+  color: white;
+  text-shadow: 0 0 5px rgb(5, 5, 34);
+}
