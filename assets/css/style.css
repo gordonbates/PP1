@@ -7,19 +7,42 @@
 }
 
 body {
+    
     font-family: Lato, sans-serif;
     font-weight: 300;
     /* color: #3a3a3a; */
-    background-color: black;
+    background-color: black;    
 }
 
 /* hero scroll container holding the background, foreground & welcome title */
 
 .wrapper {
-    height: 100vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-    perspective: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("../images/moon.png") no-repeat;
+    background-size: cover;
+}
+
+.site_title {
+    height: 10vh;
+    width: 100vw;
+    justify-self: center;
+    align-self: center;
+    color: white;
+}
+
+
+.astronaut {
+    background: url("../images/astronaut.png") no-repeat;
+    height: 25vh;
+    width: 100vw;
+}
+
+.blank {
+    height: 25vh;
+    width: 100vw;
 }
 
 #para {
@@ -59,7 +82,7 @@ body {
 
 
 
-#info {
+.info {
     font-size: 2rem;
     padding: 2rem;
     background-color: black;
@@ -81,12 +104,10 @@ nav {
     color: white;
 }
 
-#logo {
-    float: left;
-    font-size: 280%;
-}
 
-#home-bar {
+.home-bar {
+    display:  flex;
+    flex-direction: row-reverse;
     /* font-size: 2rem; */
     padding: 0rem;
     /* margin: 5px; */
@@ -96,11 +117,27 @@ nav {
     font-family: Oswald, sans-serif;
 }
 
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    color: white;
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
+
+.brand_logo {
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+.menu {
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.menu_item {
+    display: inline;
+    margin-right: 50px;
+}
+
 
 #menu>li {
     color: white;
@@ -113,7 +150,7 @@ nav {
 
 #menu,
 #logo {
-    color: white;
+    color: black;
     /* line-height: 75px; */
 }
 
