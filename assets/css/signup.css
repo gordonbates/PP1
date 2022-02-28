@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #3a3a3a; */
+    display: flex;
+    font-weight: 300;
+    justify-content: center;
+    height: 100vh;
+    background: url("../images/signupimage.jpg");
+    background-size: cover;
+}
+
+form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px;
+}
+
+button {
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #3a3a3a;
+    color: white;
+    margin-top: 20px;
+}
+
+form h1 {
+    margin-bottom: 20px;
+
+}

@@ -9,19 +9,20 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    /* color: #3a3a3a; */
+    background-color: black;
 }
 
 /* hero scroll container holding the background, foreground & welcome title */
 
-/*.wrapper {
+.wrapper {
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
     perspective: 10px;
 }
 
-header {
+#para {
     position: relative;
     display: flex;
     justify-content: center;
@@ -56,16 +57,14 @@ header {
     text-align: center;
 }
 
-section {
+
+
+#info {
     font-size: 2rem;
-    padding: 0rem;
-    background-color: #252525;
+    padding: 2rem;
+    background-color: black;
     color: white;
-
 }
-
-*/
-
 
 /* heading and logo */
 
@@ -74,69 +73,80 @@ h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    /* color: #252525; */
+}
+
+/* nav links */
+nav {
+    color: white;
 }
 
 #logo {
     float: left;
     font-size: 280%;
-    margin-left: 30px;
 }
 
-.main-sect {
-    padding: 30px 0 0 30px;
-
+#home-bar {
+    /* font-size: 2rem; */
+    padding: 0rem;
+    /* margin: 5px; */
+    background-color: #252525;
+    color: white;
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
 }
-
-/* nav links */
-
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    color: white;
+}
+
+#menu>li {
+    color: white;
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+
+
 }
 
 #menu,
 #logo {
-    line-height: 75px;
+    color: white;
+    /* line-height: 75px; */
 }
 
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
+@keyframes animated_color {
+    from {
+        color: blue;
+    }
 
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
+    to {
+        color: orange;
+        font-size: larger;
+    }
 }
 
 /* footer styling */
 
 footer {
-    height: 150px;
+    height: 10px;
 }
 
 .social-media {
     text-align: center;
-}
+} 
 
-.social-media > li {
+.social-media>li {
     display: inline;
 }
+
 
 .social-media i {
     font-size: 260%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
-}
+    color: white;
+    text-shadow: 0 0 5px rgb(5, 5, 34);
+	}
