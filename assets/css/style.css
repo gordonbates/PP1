@@ -12,8 +12,7 @@ body {
   background-attachment: fixed;
   font-family: Lato, sans-serif;
   font-weight: 300;
-  /* color: #3a3a3a; */
-  background-color: black;
+  background-color: #021024;
 }
 
 /* hero scroll container holding the background, foreground & welcome title */
@@ -25,18 +24,19 @@ body {
 
 .site_title {
   width: 100vw;
-  font-size: 50px;
+  font-size: 2rem;
   justify-self: center;
   align-self: center;
   color: white;
   text-align: center;
+  text-shadow: 0 0 10px midnightblue;
 }
 
 
 .astronaut {
   background: url("../images/astronaut.png") no-repeat;
   height: 100vh;
-  width: 50vw; 
+  width: 50vw;
   background-size: contain;
   justify-self: center;
   align-self: center;
@@ -45,6 +45,11 @@ body {
 .blank {
   height: 40vh;
   width: 100vw;
+}
+
+.blank2 {
+  height: 20vh;
+  width: 100vh;
 }
 
 #para {
@@ -74,20 +79,20 @@ body {
   z-index: -1;
 }
 
-.title {
+/* .title {
 
   font-size: 2rem;
   color: white;
   text-shadow: 0 0 5px rgb(5, 5, 34);
   text-align: center;
-}
+} */
 
 
 
 .info {
   font-size: 2rem;
   padding: 2rem;
-  background-color: black;
+  background-color: #021024;
   color: white;
 }
 
@@ -114,13 +119,13 @@ nav {
   padding: 0rem;
   /* margin: 5px; */
   background-color: #252525;
-  color: white;
+  /* color: white; */
   font-size: 130%;
   font-family: Oswald, sans-serif;
 }
 
 .navbar {
-
+  /* font-size: 110%; */
   display: flex;
   justify-content: space-between;
   color: white;
@@ -129,8 +134,7 @@ nav {
 .brand_logo {
   justify-self: flex-start;
   align-self: flex-start;
-  color: white;
-
+  /* color: white; */
 }
 
 .menu {
@@ -139,7 +143,7 @@ nav {
 }
 
 .menu_item {
-    font-size: 130%;
+  font-size: 130%;
   display: inline;
   margin-right: 50px;
   color: white;
@@ -149,17 +153,17 @@ nav {
   animation: .1s linear both menu_hover_effect;
 }
 
-.home-color {
-    color: white;
-}
+/* .home-color {
+  color: white;
+} */
 
-.menu-color {
-    color: white;
-}
+/* .menu-color {
+  color: white;
+} */
 
 a {
-  color: #3a3a3a;
-} 
+  color: white;
+}
 
 
 
@@ -196,4 +200,31 @@ footer {
   padding: 5%;
   color: white;
   text-shadow: 0 0 5px rgb(5, 5, 34);
+}
+
+/* gallery styling */
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  color: white;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }

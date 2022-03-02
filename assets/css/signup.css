@@ -24,6 +24,7 @@ form {
 }
 
 input {
+    color: whitesmoke;
     display: block;
     width: 350px;
     height: 40px;
@@ -32,19 +33,29 @@ input {
     border: none;
     outline: none;
     font-size: 20px;
-    border-bottom: 1px;
+    border-bottom: 1px solid whitesmoke;
+    background: transparent;
 }
 
 button {
     width: 350px;
     height: 40px;
     font-size: 20px;
-    background-color: #3a3a3a;
-    color: white;
+    background-color: #021024;
+    color: whitesmoke;
     margin-top: 20px;
 }
 
 form h1 {
     margin-bottom: 20px;
 
+}
+
+h1 {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+::placeholder {
+    color: whitesmoke;
 }
