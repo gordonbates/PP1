@@ -165,6 +165,9 @@ a {
   color: white;
 }
 
+a.info {
+  color: red;
+}
 
 
 
@@ -206,7 +209,8 @@ footer {
 
 div.gallery {
   margin: 5px;
-  border: 1px solid #ccc;
+  padding: 4px;
+  /* border: 1px solid #ccc; */
   float: left;
   width: 180px;
 }
@@ -221,7 +225,7 @@ div.gallery img {
 }
 
 .desc {
-  color: white;
+  color: silver;
 }
 
 div.desc {
