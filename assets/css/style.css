@@ -34,7 +34,7 @@ body {
       teal 80%, teal 100%);
 }
 
-.hamburger-menu .sidebar-menu {
+.hamburger-menu #sidebar-menu {
   visibilty: hidden;
   position: fixed;
   top: 0;
@@ -50,8 +50,8 @@ body {
   box-sizing: border-box;
 }
 
-.hamburger-menu:focus .sidebar-menu,
-.hamburger-menu:focus-within .sidebar-menu {
+.hamburger-menu:focus #sidebar-menu,
+.hamburger-menu:focus-within #sidebar-menu {
   visibility: visible;
   right: 0;
 }
@@ -162,22 +162,29 @@ body {
 
 .img-top {
   float: left;
-  width: 300px;
-  height: 260px;
-  padding: 0 10px 0 0;
-}
+  width: 620px;
+  height: 330px;
+  border: 1px solid teal;
+  } 
 
 .img-mid {
-  max-width: 100%;
- max-height: 100%;
- 
+  width: 100%;
+  border: 1px solid teal;
 }
-
-
 
 .text {
   text-align: justify;
 }
+
+/* caption for images */
+
+h5 {
+  color: teal;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 900;
+}
+
 
 /* heading and logo */
 
@@ -281,3 +288,14 @@ div.desc {
 }
 
 /* responsiveness of page  */
+
+/* For medium screen sizes from 950px wide and down
+@media screen and (max-width: 950px) {
+
+  .hamburger-menu {
+      clear: left;
+      float: left;
+      margin-left: 30px;
+      margin-bottom: 20px;
+      line-height: 25px;
+  } */

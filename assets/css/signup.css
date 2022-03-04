@@ -14,8 +14,9 @@ body {
     font-weight: 300;
     justify-content: center;
     height: 100vh;
-    background: url("../images/signupimage.jpg");
+    background: url("../images/moon.png") no-repeat;
     background-size: cover;
+    background-color: #021024;
 }
 
 form {
@@ -30,10 +31,11 @@ input {
     height: 40px;
     margin: 20px;
     font-size: 20px;
+    text-shadow: 0 0 5px teal;
     border: none;
     outline: none;
     font-size: 20px;
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 2px solid teal;
     background: transparent;
 }
 
@@ -41,8 +43,8 @@ button {
     width: 350px;
     height: 40px;
     font-size: 20px;
-    background-color: #021024;
-    color: whitesmoke;
+    background: whitesmoke;
+    background-color: teal;
     margin-top: 20px;
 }
 
@@ -54,6 +56,8 @@ form h1 {
 h1 {
     font-size: 20px;
     color: whitesmoke;
+    text-shadow: 0 0 5px teal;
+   
 }
 
 ::placeholder {
