@@ -15,6 +15,72 @@ body {
   background-color: #021024;
 }
 
+
+/* hamburger menu */
+
+.hamburger-menu {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border: none;
+  padding: 0px;
+  margin: 25px;
+  font-family: Oswald, sans-serif;
+  background: linear-gradient(to bottom,
+      teal, teal 20%,
+      #021024 20%, #021024 40%,
+      teal 40%, teal 60%,
+      #021024 60%, #021024 80%,
+      teal 80%, teal 100%);
+}
+
+.hamburger-menu .sidebar-menu {
+  visibilty: hidden;
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 200px;
+  height: 100%;
+  background: url("../images/hamburger.png") center no-repeat;
+  background-size: 8vh;
+  background-position: bottom;
+  background-color: teal;
+  transition: 0.3s;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+.hamburger-menu:focus .sidebar-menu,
+.hamburger-menu:focus-within .sidebar-menu {
+  visibility: visible;
+  right: 0;
+}
+
+.hamburger-menu h3 {
+  color: #021024;
+  font-size: 2.2rem;
+}
+
+.hamburger-menu ul {
+  padding-right: 0px;
+}
+
+.hamburger-menu li {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+.hamburger-menu a {
+  color: #021024;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.hamburger-menu a:hover {
+  text-decoration: underline;
+}
+
+
 /* hero scroll container holding the background, foreground & welcome title */
 
 .wrapper {
@@ -29,9 +95,8 @@ body {
   align-self: center;
   color: white;
   text-align: center;
-  text-shadow: 0 0 10px midnightblue;
+  text-shadow: 0 0 10px teal;
 }
-
 
 .astronaut {
   background: url("../images/astronaut.png") no-repeat;
@@ -79,21 +144,39 @@ body {
   z-index: -1;
 }
 
-/* .title {
-
-  font-size: 2rem;
-  color: white;
-  text-shadow: 0 0 5px rgb(5, 5, 34);
-  text-align: center;
-} */
-
-
-
 .info {
   font-size: 2rem;
   padding: 2rem;
   background-color: #021024;
   color: white;
+}
+
+
+/* images for info */
+
+.container {
+  margin: 8px auto;
+  width: 100%;
+  padding: 8px;
+}
+
+.img-top {
+  float: left;
+  width: 300px;
+  height: 260px;
+  padding: 0 10px 0 0;
+}
+
+.img-mid {
+  max-width: 100%;
+ max-height: 100%;
+ 
+}
+
+
+
+.text {
+  text-align: justify;
 }
 
 /* heading and logo */
@@ -103,84 +186,49 @@ h2 {
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
-  /* color: #252525; */
 }
+
 
 /* nav links */
 nav {
   color: white;
 }
 
-
-.home-bar {
-  display: flex;
-  flex-direction: row-reverse;
-  /* font-size: 2rem; */
-  padding: 0rem;
-  /* margin: 5px; */
-  background-color: #252525;
-  /* color: white; */
-  font-size: 130%;
-  font-family: Oswald, sans-serif;
-}
-
 .navbar {
-  /* font-size: 110%; */
   display: flex;
   justify-content: space-between;
   color: white;
 }
 
 .brand_logo {
-  justify-self: flex-start;
-  align-self: flex-start;
-  /* color: white; */
+  float: left;
+  font-size: 180%;
+  margin-left: 30px;
+  /* justify-self: flex-start;
+  align-self: flex-start; */
 }
 
-.menu {
-  justify-self: flex-end;
-  align-self: flex-end;
+.brand_logo a {
+  text-decoration: none;
+  color: inherit;
+  text-shadow: 0 0 10px teal;
 }
-
-.menu_item {
-  font-size: 130%;
-  display: inline;
-  margin-right: 50px;
-  color: white;
-}
-
-.menu_item:hover {
-  animation: .1s linear both menu_hover_effect;
-}
-
-/* .home-color {
-  color: white;
-} */
-
-/* .menu-color {
-  color: white;
-} */
 
 a {
-  color: white;
+  color: teal;
 }
-
-a.info {
-  color: red;
-}
-
-
 
 @keyframes menu_hover_effect {
   from {
-    color: blue;
+    color: white;
   }
 
   to {
-    color: orange;
+    color: teal;
     font-size: larger;
   }
 }
+
 
 /* footer styling */
 
@@ -196,7 +244,6 @@ footer {
   display: inline;
 }
 
-
 .social-media i {
   font-size: 260%;
   margin: 1%;
@@ -205,18 +252,18 @@ footer {
   text-shadow: 0 0 5px rgb(5, 5, 34);
 }
 
+
 /* gallery styling */
 
 div.gallery {
   margin: 5px;
   padding: 4px;
-  /* border: 1px solid #ccc; */
   float: left;
   width: 180px;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 1px solid teal;
 }
 
 div.gallery img {
@@ -225,10 +272,12 @@ div.gallery img {
 }
 
 .desc {
-  color: silver;
+  color: teal;
 }
 
 div.desc {
   padding: 15px;
   text-align: center;
 }
+
+/* responsiveness of page  */
