@@ -6,10 +6,10 @@
     font-family: Oswald, sans-serif;
     font-weight: 300;
     box-sizing: border-box;
-}
+    /* color: whitesmoke */
+    }
 
 body {
-    /* background-color: #3a3a3a; */
     display: flex;
     font-weight: 300;
     justify-content: center;
@@ -20,7 +20,7 @@ body {
 }
 
 form {
-    margin-top: 50px;
+    margin-top: 25vh;
     text-align: center;
 }
 
@@ -46,6 +46,7 @@ button {
     background: whitesmoke;
     background-color: teal;
     margin-top: 20px;
+    opacity: 0.85;
 }
 
 form h1 {

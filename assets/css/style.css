@@ -34,24 +34,30 @@ body {
       teal 80%, teal 100%);
 }
 
-.hamburger-menu #sidebar-menu {
-  visibilty: hidden;
+.hamburger-menu .sidebar-menu {
   position: fixed;
   top: 0;
   right: -250px;
   width: 200px;
   height: 100%;
   background: url("../images/hamburger.png") center no-repeat;
-  background-size: 8vh;
+  background-size: 7vh;
   background-position: bottom;
   background-color: teal;
   transition: 0.3s;
   padding: 0px 10px;
   box-sizing: border-box;
+  opacity: 0.95;
 }
 
-.hamburger-menu:focus #sidebar-menu,
-.hamburger-menu:focus-within #sidebar-menu {
+/* .hamburger-button:focus+.sidebar-menu {
+  visibility: visible;
+  display: block;
+} */
+
+
+.hamburger-menu:focus .sidebar-menu,
+.hamburger-menu:focus-within .sidebar-menu {
   visibility: visible;
   right: 0;
 }
@@ -117,16 +123,6 @@ body {
   width: 100vh;
 }
 
-#para {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  transform-style: preserve-3d;
-  z-index: -1;
-}
-
 .background {
   transform: translateZ(-10px) scale(2);
 }
@@ -149,23 +145,23 @@ body {
   padding: 2rem;
   background-color: #021024;
   color: white;
+  /* opacity: 0.8; */
 }
 
 
 /* images for info */
 
 .container {
-  margin: 8px auto;
+  margin: 10px auto;
   width: 100%;
-  padding: 8px;
+  padding: 10px;
 }
 
 .img-top {
   float: left;
-  width: 620px;
-  height: 330px;
+  width: 50vw;
   border: 1px solid teal;
-  } 
+}
 
 .img-mid {
   width: 100%;
@@ -174,6 +170,7 @@ body {
 
 .text {
   text-align: justify;
+  margin-right: 10px;
 }
 
 /* caption for images */
@@ -211,8 +208,6 @@ nav {
   float: left;
   font-size: 180%;
   margin-left: 30px;
-  /* justify-self: flex-start;
-  align-self: flex-start; */
 }
 
 .brand_logo a {
@@ -262,18 +257,18 @@ footer {
 
 /* gallery styling */
 
-div.gallery {
+.gallery {
   margin: 5px;
   padding: 4px;
   float: left;
-  width: 180px;
+  width: 100vw;
 }
 
-div.gallery:hover {
+.gallery:hover {
   border: 1px solid teal;
 }
 
-div.gallery img {
+.gallery img {
   width: 100%;
   height: auto;
 }
@@ -282,20 +277,32 @@ div.gallery img {
   color: teal;
 }
 
-div.desc {
+.desc {
   padding: 15px;
   text-align: center;
 }
 
-/* responsiveness of page  */
+/* @media screen and (min-width: 480px) {
+  body,  .wrapper, {
+    width: 80vw;
+  }
+} */
 
-/* For medium screen sizes from 950px wide and down
-@media screen and (max-width: 950px) {
 
-  .hamburger-menu {
-      clear: left;
-      float: left;
-      margin-left: 30px;
-      margin-bottom: 20px;
-      line-height: 25px;
-  } */
+.gallery_space {
+  display: flex;
+  flex-direction: row;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .gallery_space {
+    flex-direction: column;
+  }
+
+  .gallery,
+  .blank,
+  .blank2 {
+    width: 100vw;
+  }
+}
