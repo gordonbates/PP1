@@ -50,12 +50,6 @@ body {
   opacity: 0.95;
 }
 
-/* .hamburger-button:focus+.sidebar-menu {
-  visibility: visible;
-  display: block;
-} */
-
-
 .hamburger-menu:focus .sidebar-menu,
 .hamburger-menu:focus-within .sidebar-menu {
   visibility: visible;
@@ -145,7 +139,6 @@ body {
   padding: 2rem;
   background-color: #021024;
   color: white;
-  /* opacity: 0.8; */
 }
 
 
@@ -194,6 +187,8 @@ h2 {
 
 
 /* nav links */
+
+
 nav {
   color: white;
 }
@@ -219,18 +214,6 @@ nav {
 a {
   color: teal;
 }
-
-@keyframes menu_hover_effect {
-  from {
-    color: white;
-  }
-
-  to {
-    color: teal;
-    font-size: larger;
-  }
-}
-
 
 /* footer styling */
 
@@ -282,17 +265,12 @@ footer {
   text-align: center;
 }
 
-/* @media screen and (min-width: 480px) {
-  body,  .wrapper, {
-    width: 80vw;
-  }
-} */
-
-
 .gallery_space {
   display: flex;
   flex-direction: row;
 }
+
+/* media queries */
 
 
 @media screen and (max-width: 1024px) {
