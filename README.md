@@ -1,5 +1,5 @@
 # Welcome to the Apollo 11 lunar landing
-This was created created as an informational site where new and old space adventures from any Galaxy can come and find infomation regarding the historic 1969 Apollo 11 moon landing! 
+This was created as an informational site where new and old space adventures from any Galaxy can come and find infomation regarding the historic 1969 Apollo 11 moon landing! 
 
 The site contains an interactive Neil Armstrong on the homepage, a gallery page and also a sign up page where you can subscribe to our email list.
 
