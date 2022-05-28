@@ -25,7 +25,8 @@ h2 {
 }
 
 
-/* navigation link back to homepage on top left of page, lablled Apollo 11 with astronaut icon */
+/* navigation link back to homepage on top left of page, 
+lablled Apollo 11 with astronaut icon */
 
 
 nav {
@@ -119,7 +120,8 @@ a {
 }
 
 
-/* hero scroll container holding the background, foreground & welcome title */
+/* hero scroll container holding the background, 
+foreground & welcome title */
 
 .wrapper {
   display: flex;
@@ -180,7 +182,8 @@ a {
 }
 
 
-/* images for info */
+/* styling for the div with the class called 'info'
+on the landing page that contains images and text */
 
 .container {
   margin: 10px auto;
@@ -204,7 +207,7 @@ a {
   margin-right: 10px;
 }
 
-/* caption for images */
+/* caption for images on the homepage */
 
 h5 {
   color: teal;
@@ -216,7 +219,7 @@ h5 {
 
 
 
-/* gallery styling */
+/* gallery page styling */
 
 .gallery {
   margin: 5px;

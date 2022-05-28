@@ -18,8 +18,47 @@ body {
     background-color: #021024;
 }
 
+/* heading and logo */
 
-/* hamburger menu */
+h1,
+h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+
+/* navigation link back to homepage on top left of page, 
+lablled Apollo 11 with astronaut icon */
+
+
+nav {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.brand_logo {
+    float: left;
+    font-size: 180%;
+    margin-left: 30px;
+}
+
+.brand_logo a {
+    text-decoration: none;
+    color: inherit;
+    text-shadow: 0 0 10px teal;
+}
+
+a {
+    color: teal;
+}
+
+/* hamburger menu on top right of each page */
 
 .hamburger-menu {
     width: 50px;
@@ -83,46 +122,9 @@ body {
     text-decoration: underline;
 }
 
-/* heading and logo */
-
-h1,
-h2 {
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
 
 
-/* navigation links */
-
-
-nav {
-    color: white;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    color: white;
-}
-
-.brand_logo {
-    float: left;
-    font-size: 180%;
-    margin-left: 30px;
-}
-
-.brand_logo a {
-    text-decoration: none;
-    color: inherit;
-    text-shadow: 0 0 10px teal;
-}
-
-a {
-    color: teal;
-}
-
-/* form styling */
+/* form box styling */
 
 form {
     text-align: center;
