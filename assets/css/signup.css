@@ -125,32 +125,38 @@ a {
 /* form styling */
 
 form {
-    margin-top: 25vh;
     text-align: center;
+    margin: auto;
+    margin-top: 15vh;
+    
+}
+
+.formbox {
+    margin: auto;
+    width: 350px;
+    height: 40px; 
 }
 
 input {
     color: whitesmoke;
-    display: block;
     width: 350px;
     height: 40px;
     margin: 20px;
     font-size: 20px;
     text-shadow: 0 0 5px teal;
-    border: none;
     outline: none;
     font-size: 20px;
-    border-bottom: 2px solid teal;
+    border: 2px solid teal;
     background: transparent;
 }
 
 button {
+    margin-left: 20px;
     width: 350px;
     height: 40px;
     font-size: 20px;
     background: whitesmoke;
     background-color: teal;
-    margin-top: 20px;
     opacity: 0.85;
 }
 
@@ -164,4 +170,4 @@ form h1 {
 }
 
 
-/* media queries */
+
