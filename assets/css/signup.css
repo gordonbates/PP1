@@ -3,21 +3,126 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Oswald, sans-serif;
     font-weight: 300;
+    font-family: Oswald, sans-serif;
     box-sizing: border-box;
     color: whitesmoke
 }
 
 body {
-    display: flex;
-    font-weight: 300;
-    justify-content: center;
-    height: 100vh;
     background: url("../images/moon.png") no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
     background-color: #021024;
+  }
+
+
+/* hamburger menu */
+
+.hamburger-menu {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border: none;
+  padding: 0px;
+  margin: 25px;
+  font-family: Oswald, sans-serif;
+  background: linear-gradient(to bottom,
+      teal, teal 20%,
+      #021024 20%, #021024 40%,
+      teal 40%, teal 60%,
+      #021024 60%, #021024 80%,
+      teal 80%, teal 100%);
 }
+
+.hamburger-menu .sidebar-menu {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 200px;
+  height: 100%;
+  background: url("../images/hamburger.png") center no-repeat;
+  background-size: 7vh;
+  background-position: bottom;
+  background-color: teal;
+  transition: 0.3s;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  opacity: 0.95;
+}
+
+.hamburger-menu:focus .sidebar-menu,
+.hamburger-menu:focus-within .sidebar-menu {
+  visibility: visible;
+  right: 0;
+}
+
+.hamburger-menu h3 {
+  color: #021024;
+  font-size: 2.2rem;
+}
+
+.hamburger-menu ul {
+  padding-right: 0px;
+}
+
+.hamburger-menu li {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+.hamburger-menu a {
+  color: #021024;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.hamburger-menu a:hover {
+  text-decoration: underline;
+}
+
+/* heading and logo */
+
+h1,
+h2 {
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+
+/* nav links */
+
+
+nav {
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.brand_logo {
+  float: left;
+  font-size: 180%;
+  margin-left: 30px;
+}
+
+.brand_logo a {
+  text-decoration: none;
+  color: inherit;
+  text-shadow: 0 0 10px teal;
+}
+
+a {
+  color: teal;
+}
+
+/* form styling */
 
 form {
     margin-top: 25vh;
@@ -54,13 +159,9 @@ form h1 {
 
 }
 
-h1 {
-    font-size: 20px;
-    color: whitesmoke;
-    text-shadow: 0 0 5px teal;
-
-}
-
 ::placeholder {
     color: whitesmoke;
 }
+
+
+/* media queries */
