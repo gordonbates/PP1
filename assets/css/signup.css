@@ -16,110 +16,110 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     background-color: #021024;
-  }
+}
 
 
 /* hamburger menu */
 
 .hamburger-menu {
-  width: 50px;
-  height: 50px;
-  display: block;
-  border: none;
-  padding: 0px;
-  margin: 25px;
-  font-family: Oswald, sans-serif;
-  background: linear-gradient(to bottom,
-      teal, teal 20%,
-      #021024 20%, #021024 40%,
-      teal 40%, teal 60%,
-      #021024 60%, #021024 80%,
-      teal 80%, teal 100%);
+    width: 50px;
+    height: 50px;
+    display: block;
+    border: none;
+    padding: 0px;
+    margin: 25px;
+    font-family: Oswald, sans-serif;
+    background: linear-gradient(to bottom,
+            teal, teal 20%,
+            #021024 20%, #021024 40%,
+            teal 40%, teal 60%,
+            #021024 60%, #021024 80%,
+            teal 80%, teal 100%);
 }
 
 .hamburger-menu .sidebar-menu {
-  position: fixed;
-  top: 0;
-  right: -250px;
-  width: 200px;
-  height: 100%;
-  background: url("../images/hamburger.png") center no-repeat;
-  background-size: 7vh;
-  background-position: bottom;
-  background-color: teal;
-  transition: 0.3s;
-  padding: 0px 10px;
-  box-sizing: border-box;
-  opacity: 0.95;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 200px;
+    height: 100%;
+    background: url("../images/hamburger.png") center no-repeat;
+    background-size: 7vh;
+    background-position: bottom;
+    background-color: teal;
+    transition: 0.3s;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    opacity: 0.95;
 }
 
 .hamburger-menu:focus .sidebar-menu,
 .hamburger-menu:focus-within .sidebar-menu {
-  visibility: visible;
-  right: 0;
+    visibility: visible;
+    right: 0;
 }
 
 .hamburger-menu h3 {
-  color: #021024;
-  font-size: 2.2rem;
+    color: #021024;
+    font-size: 2.2rem;
 }
 
 .hamburger-menu ul {
-  padding-right: 0px;
+    padding-right: 0px;
 }
 
 .hamburger-menu li {
-  list-style-type: none;
-  line-height: 3rem;
+    list-style-type: none;
+    line-height: 3rem;
 }
 
 .hamburger-menu a {
-  color: #021024;
-  font-size: 1.3rem;
-  text-decoration: none;
+    color: #021024;
+    font-size: 1.3rem;
+    text-decoration: none;
 }
 
 .hamburger-menu a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* heading and logo */
 
 h1,
 h2 {
-  font-family: Oswald, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 4px;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 
-/* nav links */
+/* navigation links */
 
 
 nav {
-  color: white;
+    color: white;
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  color: white;
+    display: flex;
+    justify-content: space-between;
+    color: white;
 }
 
 .brand_logo {
-  float: left;
-  font-size: 180%;
-  margin-left: 30px;
+    float: left;
+    font-size: 180%;
+    margin-left: 30px;
 }
 
 .brand_logo a {
-  text-decoration: none;
-  color: inherit;
-  text-shadow: 0 0 10px teal;
+    text-decoration: none;
+    color: inherit;
+    text-shadow: 0 0 10px teal;
 }
 
 a {
-  color: teal;
+    color: teal;
 }
 
 /* form styling */
@@ -128,13 +128,13 @@ form {
     text-align: center;
     margin: auto;
     margin-top: 15vh;
-    
+
 }
 
 .formbox {
     margin: auto;
     width: 350px;
-    height: 40px; 
+    height: 40px;
 }
 
 input {
@@ -169,5 +169,28 @@ form h1 {
     color: whitesmoke;
 }
 
+/* footer styling */
 
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
 
+.social-media {
+    text-align: center;
+}
+
+.social-media>li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 260%;
+    margin: 1%;
+    padding: 5%;
+    color: white;
+    text-shadow: 0 0 5px rgb(5, 5, 34);
+}
