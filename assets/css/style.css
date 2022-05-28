@@ -59,13 +59,17 @@ a {
 /* hamburger menu on top right of each page */
 
 .hamburger-menu {
+  position: absolute;
+  right: 0;
   width: 50px;
   height: 50px;
   display: block;
   border: none;
   padding: 0px;
   margin: 25px;
+  margin-right: 25px;
   font-family: Oswald, sans-serif;
+  text-shadow: 0 0 2px whitesmoke;
   background: linear-gradient(to bottom,
       teal, teal 20%,
       #021024 20%, #021024 40%,
