@@ -255,7 +255,11 @@ h5 {
 /* footer styling */
 
 footer {
-  height: 10px;
+  position: fixed;
+  text-align: center;
+  bottom: 10%;
+  width: 100%;
+  height: 60px;
 }
 
 .social-media {
@@ -270,14 +274,14 @@ footer {
   font-size: 260%;
   margin: 1%;
   padding: 5%;
-  color: white;
-  text-shadow: 0 0 5px rgb(5, 5, 34);
+  color: teal;
+  text-shadow: 0 0 5px white;
 }
 
 
 /* media queries */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .gallery_space {
     flex-direction: column;
   }
@@ -287,4 +291,4 @@ footer {
   .blank2 {
     width: 100vw;
   }
-}
+} */
