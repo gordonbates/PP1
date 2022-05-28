@@ -18,6 +18,7 @@ body {
     background-color: #021024;
 }
 
+
 /* heading and logo */
 
 h1,
@@ -30,7 +31,6 @@ h2 {
 
 /* navigation link back to homepage on top left of page, 
 lablled Apollo 11 with astronaut icon */
-
 
 nav {
     color: white;
@@ -57,6 +57,7 @@ nav {
 a {
     color: teal;
 }
+
 
 /* hamburger menu on top right of each page */
 
@@ -170,6 +171,7 @@ form h1 {
 ::placeholder {
     color: whitesmoke;
 }
+
 
 /* footer styling */
 

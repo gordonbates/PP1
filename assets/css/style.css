@@ -15,6 +15,7 @@ body {
   background-color: #021024;
 }
 
+
 /* heading and logo */
 
 h1,
@@ -27,7 +28,6 @@ h2 {
 
 /* navigation link back to homepage on top left of page, 
 lablled Apollo 11 with astronaut icon */
-
 
 nav {
   color: white;
@@ -54,6 +54,7 @@ nav {
 a {
   color: teal;
 }
+
 
 /* hamburger menu on top right of each page */
 
@@ -207,6 +208,7 @@ on the landing page that contains images and text */
   margin-right: 10px;
 }
 
+
 /* caption for images on the homepage */
 
 h5 {
@@ -215,8 +217,6 @@ h5 {
   font-style: italic;
   font-weight: 900;
 }
-
-
 
 
 /* gallery page styling */
@@ -251,6 +251,7 @@ h5 {
   flex-direction: row;
 }
 
+
 /* footer styling */
 
 footer {
@@ -274,10 +275,7 @@ footer {
 }
 
 
-
-
 /* media queries */
-
 
 @media screen and (max-width: 1024px) {
   .gallery_space {
