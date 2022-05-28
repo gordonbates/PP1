@@ -6,6 +6,16 @@
   border: none;
 }
 
+body {
+  background: url("../images/moon.png") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  background-color: #021024;
+}
+
+
 /* hamburger menu */
 
 .hamburger-menu {
@@ -205,6 +215,38 @@ a {
   color: teal;
 }
 
+/* gallery styling */
+
+.gallery {
+  margin: 5px;
+  padding: 4px;
+  float: left;
+  width: 100vw;
+}
+
+.gallery:hover {
+  border: 1px solid teal;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  color: white;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.gallery_space {
+  display: flex;
+  flex-direction: row;
+}
+
 /* footer styling */
 
 footer {
@@ -228,37 +270,7 @@ footer {
 }
 
 
-/* gallery styling */
 
-.gallery {
-  margin: 5px;
-  padding: 4px;
-  float: left;
-  width: 100vw;
-}
-
-.gallery:hover {
-  border: 1px solid teal;
-}
-
-.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-.desc {
-  color: teal;
-}
-
-.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-.gallery_space {
-  display: flex;
-  flex-direction: row;
-}
 
 /* media queries */
 
