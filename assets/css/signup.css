@@ -28,6 +28,13 @@ h1 {
     letter-spacing: 4px;
 }
 
+h2 {
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-top: -.2em;
+    margin-bottom: 0;
+}
+
 
 /* navigation link back to homepage on top left of page, 
 lablled Apollo 11 with astronaut icon */
@@ -179,6 +186,8 @@ button {
     color: whitesmoke;
     border: 1px solid whitesmoke;
     background-color: teal;
+    font-weight: lighter;
+    letter-spacing: 2px;
 }
 
 .subbutton:hover {
@@ -189,7 +198,7 @@ button {
     -moz-transition: all .4s ease;
     -o-transition: all .4s ease;
     transition: all .4s ease;
-  }
+}
 
 form h1 {
     margin-bottom: 20px;
@@ -198,6 +207,8 @@ form h1 {
 
 ::placeholder {
     color: whitesmoke;
+    font-weight: lighter;
+    letter-spacing: 2px;
 }
 
 
