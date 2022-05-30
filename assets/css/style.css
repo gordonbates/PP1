@@ -56,6 +56,7 @@ a {
 /* hamburger menu on top right of each page */
 
 .hamburger-menu {
+  border-radius: 5px;
   position: absolute;
   right: 0;
   width: 50px;
@@ -66,7 +67,7 @@ a {
   margin: 25px;
   margin-right: 25px;
   font-family: Oswald, sans-serif;
-  text-shadow: 0 0 2px whitesmoke;
+  text-shadow: 0 0 1px whitesmoke;
   background: linear-gradient(to bottom,
       teal, teal 20%,
       #021024 20%, #021024 40%,
