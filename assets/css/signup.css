@@ -113,7 +113,7 @@ a {
 
 .hamburger-menu h3 {
     color: #021024;
-    font-size: 2.2rem;
+    font-size: 3rem;
 }
 
 .hamburger-menu ul {
@@ -127,11 +127,17 @@ a {
 
 .hamburger-menu a {
     color: #021024;
-    font-size: 1.3rem;
+    font-size: 2rem;
     text-decoration: none;
 }
 
 .hamburger-menu a:hover {
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
     text-decoration: underline;
 }
 
@@ -154,6 +160,7 @@ form {
 }
 
 input {
+    padding-left: 10px;
     border-radius: 25px;
     width: 350px;
     height: 40px;
@@ -175,7 +182,6 @@ button {
     color: whitesmoke;
     border: 1px solid whitesmoke;
     background-color: teal;
-
 }
 
 .subbutton {
@@ -232,9 +238,9 @@ footer {
 }
 
 .social-media i {
-    font-size: 260%;
-    margin: 1%;
+    font-size: 350%;
+    margin-bottom: .5%;
     padding: 5%;
     color: teal;
-    text-shadow: 0 0 5px white;
+    text-shadow: 2px 0 2px white;
 }
