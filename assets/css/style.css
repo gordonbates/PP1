@@ -233,15 +233,15 @@ h5 {
 /* gallery page styling */
 
 .gallery {
-  margin: 5px;
-  padding: 4px;
-  float: left;
-  width: 100vw;
+  text-align: center;
+  padding-left: 10%;
+  width: 80%;
+  height: 80%;
 }
 
-.gallery:hover {
+/* .gallery:hover {
   border: 1px solid teal;
-}
+} */
 
 .gallery img {
   width: 100%;
@@ -258,8 +258,9 @@ h5 {
 }
 
 .gallery_space {
-  display: flex;
-  flex-direction: row;
+  /* display: flex; */
+  /* flex-direction: row; */
+  flex-direction: column;
 }
 
 

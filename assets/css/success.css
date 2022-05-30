@@ -19,15 +19,15 @@ body {
 
 #successbox {
     text-shadow: 0 0 10px teal;
-    padding: 4em 4em 6em 4em;;
+    padding: 4em 4em 7em 4em;;
     background-color: #021024;
     display: block;
     border: 1px solid whitesmoke;
     color: whitesmoke;
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
     opacity: 0.85;
 }
 
@@ -75,11 +75,11 @@ body {
 }
 
 #contBtn:hover {
-    -webkit-box-shadow: 0px 15px 30px teal;
-    -moz-box-shadow: 0px 15px 30px teal;
-    box-shadow: 0px 15px 30px teal;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
+    /* -webkit-box-shadow: 0 5px 15px teal;
+    -moz-box-shadow: 0 5px 15px teal; */
+    box-shadow: 0 5px 15px teal;
+    /* -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease; */
     -o-transition: all .4s ease;
     transition: all .4s ease;
 }
