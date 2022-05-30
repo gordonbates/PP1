@@ -17,20 +17,23 @@ body {
     margin-top: 25vh;
 }
 
-#upper-side {
-    padding: 2em;
-    background-color: teal;
+#successbox {
+    text-shadow: 0 0 10px teal;
+    padding: 4em 4em 6em 4em;;
+    background-color: #021024;
     display: block;
-    color: #021024;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
     opacity: 0.85;
 }
 
 #checkmark {
     font-weight: lighter;
-    fill: #021024;
-    margin: -3.5em auto auto 20px;
+    margin-top: 2em;
 }
 
 #status {
@@ -42,19 +45,13 @@ body {
     margin-bottom: 0;
 }
 
-#lower-side {
-    padding: 2em 2em 5em 2em;
-    background: teal;
-    display: block;
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px;
-    opacity: 0.85;
-}
+
+/* Subscribed message */
 
 #message {
+    text-shadow: 0 0 10px teal;
     font-size: 1.5em;
-    margin-top: -.5em;
-    color: #021024;
+    color: whitesmoke;
     letter-spacing: 1px;
 }
 
@@ -62,13 +59,14 @@ body {
     position: relative;
     top: 1.5em;
     text-decoration: none;
-    background: #021024;
-    color: teal;
-    margin: auto;
-    padding: .8em 3em;
-    -webkit-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
-    -moz-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
-    box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    border: 1px solid whitesmoke;
+    background: teal;
+    color: whitesmoke;
+    margin-bottom: 2em;
+    padding: .3em 3em;
     border-radius: 25px;
     -webkit-transition: all .4s ease;
     -moz-transition: all .4s ease;
@@ -77,9 +75,9 @@ body {
 }
 
 #contBtn:hover {
-    -webkit-box-shadow: 0px 15px 30px #021024;
-    -moz-box-shadow: 0px 15px 30px #021024;
-    box-shadow: 0px 15px 30px #021024;
+    -webkit-box-shadow: 0px 15px 30px teal;
+    -moz-box-shadow: 0px 15px 30px teal;
+    box-shadow: 0px 15px 30px teal;
     -webkit-transition: all .4s ease;
     -moz-transition: all .4s ease;
     -o-transition: all .4s ease;
