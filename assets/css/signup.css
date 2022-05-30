@@ -198,13 +198,10 @@ button {
 }
 
 .subbutton:hover {
-    -webkit-box-shadow: 0px 15px 30px teal;
-    -moz-box-shadow: 0px 15px 30px teal;
-    box-shadow: 0px 15px 30px teal;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    -o-transition: all .4s ease;
-    transition: all .4s ease;
+    box-shadow: 0px 5px 15px teal;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    text-decoration: underline;
 }
 
 form h1 {
