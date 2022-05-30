@@ -15,9 +15,6 @@ body {
   background-color: #021024;
 }
 
-
-/* heading and logo */
-
 h1,
 h2 {
   font-family: Oswald, sans-serif;
@@ -125,6 +122,19 @@ a {
 }
 
 
+/* blank space created to use on index page */
+
+.blank {
+  height: 40vh;
+  width: 100vw;
+}
+
+.blank2 {
+  height: 20vh;
+  width: 100vh;
+}
+
+
 /* hero scroll container holding the background, 
 foreground & welcome title */
 
@@ -150,16 +160,6 @@ foreground & welcome title */
   background-size: contain;
   justify-self: center;
   align-self: center;
-}
-
-.blank {
-  height: 40vh;
-  width: 100vw;
-}
-
-.blank2 {
-  height: 20vh;
-  width: 100vh;
 }
 
 .background {

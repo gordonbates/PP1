@@ -132,6 +132,7 @@ a {
 /* form box styling */
 
 form {
+    font-weight: lighter;
     text-align: center;
     margin: auto;
     margin-top: 15vh;
@@ -145,6 +146,7 @@ form {
 }
 
 input {
+    border-radius: 25px;
     color: whitesmoke;
     width: 350px;
     height: 40px;
@@ -165,7 +167,29 @@ button {
     color: whitesmoke;
     border: 1px solid whitesmoke;
     background-color: teal;
+
 }
+
+.subbutton {
+    border-radius: 25px;
+    margin: 5px;
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    background-color: teal;
+}
+
+.subbutton:hover {
+    -webkit-box-shadow: 0px 15px 30px teal;
+    -moz-box-shadow: 0px 15px 30px teal;
+    box-shadow: 0px 15px 30px teal;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+  }
 
 form h1 {
     margin-bottom: 20px;
