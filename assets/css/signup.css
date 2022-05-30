@@ -35,6 +35,10 @@ h2 {
     margin-bottom: 0;
 }
 
+h3 {
+    font-weight: bold;
+}
+
 
 /* navigation link back to homepage on top left of page, 
 lablled Apollo 11 with astronaut icon */
@@ -80,7 +84,8 @@ a {
     margin: 25px;
     margin-right: 25px;
     font-family: Oswald, sans-serif;
-    text-shadow: 0 0 2px whitesmoke;
+    text-shadow: 0 0 1px whitesmoke;
+    color: #021024;
     background: linear-gradient(to bottom,
             teal, teal 20%,
             #021024 20%, #021024 40%,
@@ -103,17 +108,13 @@ a {
     padding: 0px 10px;
     box-sizing: border-box;
     opacity: 0.95;
+    letter-spacing: 2px;
 }
 
 .hamburger-menu:focus .sidebar-menu,
 .hamburger-menu:focus-within .sidebar-menu {
     visibility: visible;
     right: 0;
-}
-
-.hamburger-menu h3 {
-    color: #021024;
-    font-size: 3rem;
 }
 
 .hamburger-menu ul {
@@ -129,6 +130,12 @@ a {
     color: #021024;
     font-size: 2rem;
     text-decoration: none;
+}
+
+.hamburger-menu h3 {
+    color: #021024;
+    font-size: 3rem;
+    letter-spacing: 2px;
 }
 
 .hamburger-menu a:hover {

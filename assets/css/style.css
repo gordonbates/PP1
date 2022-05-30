@@ -68,12 +68,14 @@ a {
   margin-right: 25px;
   font-family: Oswald, sans-serif;
   text-shadow: 0 0 1px whitesmoke;
+  color: #021024;
   background: linear-gradient(to bottom,
       teal, teal 20%,
       #021024 20%, #021024 40%,
       teal 40%, teal 60%,
       #021024 60%, #021024 80%,
       teal 80%, teal 100%);
+
 }
 
 .hamburger-menu .sidebar-menu {
@@ -98,11 +100,6 @@ a {
   right: 0;
 }
 
-.hamburger-menu h3 {
-  color: #021024;
-  font-size: 3rem;
-}
-
 .hamburger-menu ul {
   padding-right: 0px;
 }
@@ -116,6 +113,12 @@ a {
   color: #021024;
   font-size: 2rem;
   text-decoration: none;
+}
+
+.hamburger-menu h3 {
+  color: #021024;
+  font-size: 3rem;
+  letter-spacing: 2px;
 }
 
 .hamburger-menu a:hover {
@@ -233,15 +236,11 @@ h5 {
 /* gallery page styling */
 
 .gallery {
-  text-align: center;
+  /* text-align: center; */
   padding-left: 10%;
   width: 80%;
   height: 80%;
 }
-
-/* .gallery:hover {
-  border: 1px solid teal;
-} */
 
 .gallery img {
   width: 100%;
@@ -250,16 +249,12 @@ h5 {
 
 .desc {
   color: white;
-}
-
-.desc {
   padding: 15px;
   text-align: center;
+  letter-spacing: 2px;
 }
 
 .gallery_space {
-  /* display: flex; */
-  /* flex-direction: row; */
   flex-direction: column;
 }
 
@@ -289,18 +284,3 @@ footer {
   color: teal;
   text-shadow: 2px 0 2px white;
 }
-
-
-/* media queries */
-
-/* @media screen and (max-width: 1024px) {
-  .gallery_space {
-    flex-direction: column;
-  }
-
-  .gallery,
-  .blank,
-  .blank2 {
-    width: 100vw;
-  }
-} */

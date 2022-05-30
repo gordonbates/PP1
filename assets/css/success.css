@@ -40,7 +40,7 @@ body {
     font-weight: lighter;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 2em;
+    font-size: 1.75em;
     margin-top: -.2em;
     margin-bottom: 0;
 }
@@ -52,7 +52,8 @@ body {
     text-shadow: 0 0 10px teal;
     font-size: 1.5em;
     color: whitesmoke;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    transition: all 2s ease;
 }
 
 #contBtn {
@@ -68,18 +69,10 @@ body {
     margin-bottom: 2em;
     padding: .3em 3em;
     border-radius: 25px;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    -o-transition: all .4s ease;
-    transition: all .4s ease;
 }
 
 #contBtn:hover {
-    /* -webkit-box-shadow: 0 5px 15px teal;
-    -moz-box-shadow: 0 5px 15px teal; */
     box-shadow: 0 5px 15px teal;
-    /* -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease; */
     -o-transition: all .4s ease;
     transition: all .4s ease;
 }
