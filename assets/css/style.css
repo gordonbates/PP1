@@ -20,6 +20,7 @@ h2 {
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
+  width: auto;
 }
 
 
@@ -283,4 +284,58 @@ footer {
   padding: 5%;
   color: teal;
   text-shadow: 2px 0 2px white;
+}
+
+
+/* media queries for smaller devices */
+
+@media screen and (max-width: 422px) {
+
+  .brand_logo {
+    font-size: 125%;
+  }
+
+  .site_title {
+    font-size: 1.5rem;
+  }
+
+  .astronaut {
+    width: 70vw;
+  }
+
+}
+
+/* Galaxy Note 20 */
+@media screen and (max-width: 413px) {
+
+  .blank {
+    height: 36vh;
+  }
+
+  .blank2 {
+    height: 20vh;
+  }
+
+  .astronaut {
+    width: 90vw;
+  }
+
+  .astronaut {
+    height: 50vh;
+  }
+
+}
+
+/* iphone 12pro */
+@media screen and (max-width: 391px) {
+
+  .blank {
+    height: 35vh;
+    width: 100%;
+  }
+
+  .astronaut {
+    height: 50vh;
+  }
+
 }

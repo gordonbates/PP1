@@ -74,5 +74,5 @@ body {
 #contBtn:hover {
     box-shadow: 0 5px 15px teal;
     -o-transition: all .4s ease;
-    transition: all .4s ease;
+    transition: all .3s ease;
 }

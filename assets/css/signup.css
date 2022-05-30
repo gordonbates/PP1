@@ -51,6 +51,7 @@ nav {
     display: flex;
     justify-content: space-between;
     color: white;
+    width: 100%;
 }
 
 .brand_logo {
@@ -248,3 +249,18 @@ footer {
     color: teal;
     text-shadow: 2px 0 2px white;
 }
+
+
+/* media queries for smaller devices */
+
+@media screen and (max-width: 422px) {
+
+    .brand_logo {
+      font-size: 125%;
+    }
+  
+    .site_title {
+      font-size: 1.5rem;
+    }
+  
+  }
