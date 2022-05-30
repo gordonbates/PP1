@@ -155,7 +155,6 @@ form {
 
 input {
     border-radius: 25px;
-    color: whitesmoke;
     width: 350px;
     height: 40px;
     margin: 5px;
@@ -164,7 +163,8 @@ input {
     outline: none;
     font-size: 20px;
     border: 1px solid whitesmoke;
-    background: transparent;
+    background-color: #021024;
+    opacity: 0.85;
 }
 
 button {
