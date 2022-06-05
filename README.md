@@ -1,8 +1,8 @@
+# Welcome to the Apollo 11 1969 Lunar Landing 🚀 🌑
+
 <img width="1512" alt="banner" src="https://user-images.githubusercontent.com/93173575/172063130-17cd2cd8-31ee-4923-a660-b8f4f6399df9.png">
 
-# Welcome to the Apollo 11 lunar landing
-
-This was created as an informational site where new and old space adventures from any galaxy can come and find infomation regarding the historic 1969 Apollo 11 moon landing! 
+This website was created as an informational site where new and old space adventurers from any galaxy can come and find infomation regarding the historical 1969 Apollo 11 moon landing! 
 
 <img width="1512" alt="res" src="https://user-images.githubusercontent.com/93173575/172063166-b0f706a3-d1ed-4c29-96b6-29b95a5855bd.png">
 
@@ -30,9 +30,9 @@ The intended audience is for children (7+) an adults of all ages.
 
 #### As a first time user the site needs to...
 
-- have an easy uunderstanding of what the page is about.
+- have an easy understanding of what the page is about.
 - be easy to navigate around.
-- have historial infomation about the the 1969 lunar landing.
+- have historical infomation about the the 1969 lunar landing.
 - have a picture gallery.
 
 ### Returning Visitor User
@@ -50,16 +50,16 @@ The intended audience is for children (7+) an adults of all ages.
 
 # Design
 
-The design was kept simple so it could be navigated and accessable to all children and adults
+The design was kept simple so it could be navigated and accessable to children and adults
 
 ## Color Scheme
 
 ### The color scheme used...
 
-- #021024 which is a dary navy was used as the background across all the pages
-- #008080 which is the color teal and it was used for the menu bar, social media links, text links to external pages, some text shadow, borders and sign up buttons.
+- #021024 which is a dark navy and was used as the background color across all the pages.
+- #008080 which is the color teal and it was used for the menu bar, social media links, text links to external pages, some text shadow, borders and Submit & Home buttons.
 - #FFFFFF which is white was used for font.
-- #F5F5F5 which is whitesmoke was used for some text shadow
+- #F5F5F5 which is whitesmoke was used for some text shadow.
 
 <img width="702" alt="colors" src="https://user-images.githubusercontent.com/93173575/172064179-a13369c3-8803-4276-8af2-fd5ae755d2a8.png">
 
@@ -81,29 +81,29 @@ The design was kept simple so it could be navigated and accessable to all childr
 
 ### The Menu Sidebar
 
-- After clicking the hambuger meun the user will be presented with menu side bar where you can navigate between Home, Gallery and Sign Up pages
+- After clicking the hambuger menu the user will be presented with a menu side bar where the user can navigate between Home, Gallery and Sign Up pages
 
 <img width="1512" alt="menusidebar" src="https://user-images.githubusercontent.com/93173575/172065344-488625d0-ee68-45b4-b418-a45c13332a5e.png">
 
 ### Gallery 
 
-- The gallery contains six photos related to the lunar landing. The are stacked in verticle column.
+- The gallery contains six photos related to the lunar landing. They are stacked in a verticle column.
 
 <img width="1512" alt="gallery-new" src="https://user-images.githubusercontent.com/93173575/172065412-72dd285d-fc1d-4954-abc7-6b19b60d8434.png">
 
 ### Footer
 
-- The footer contains links to four social sites. The open up in a new tab so it does not interfer with user experience.
+- The footer contains links to four social media sites. They open up in a new tab so it does not interfere with user experience.
 
 <img width="1512" alt="footer" src="https://user-images.githubusercontent.com/93173575/172065528-0fef3147-9bbe-46cd-ab77-19b9cd091104.png">
 
 ### Sign Up
 
-- Sign up page has username, email, password & submit button where people can stay up to date with the page. 
+- Sign up page has a username, email, password input and a submit button where the user can stay up to date with the page. 
 
 <img width="1512" alt="sign-up-page" src="https://user-images.githubusercontent.com/93173575/172065572-8a980ba2-cbfc-4f6a-9d76-8809d64d412c.png">
 
-- The site also has a subscribed, a thank message and return to home button after submit button is clicked/pressed.
+- The site also has a subscribed card. Inside it contains a thank you message and a return to Home button after the submit button is clicked/pressed.
 
 <img width="1512" alt="success-page" src="https://user-images.githubusercontent.com/93173575/172065609-c7a1d1cd-f2a4-4f03-b8cc-61496f8908a2.png">
 
@@ -120,8 +120,7 @@ HTML & CSS was used in creating this site
 - [Validator.w3](https://validator.w3.org/) was used to validate the HTML code.
 - [Jigsaw.w3](https://jigsaw.w3.org/) was used to validate the CSS code.
 - [Webfx](https://www.webfx.com/) was used to display the Hex color chart used in the Design section.
-- [Resize Images](https://aptonic.com/) is a plugin for the MacOS called Dropzone4 which was used for resizing the images for the site.
-
+- [Resize Images](https://aptonic.com/) is a plugin for the MacOS app called Dropzone4 which was used for resizing the images for the site.
 
 # Testing
 
@@ -135,7 +134,7 @@ I tested this site across Google Chrome, Firefox & Brave and the site fully resp
 
 ## Mobile
 
-I tested the site on mobile and the content adapted well to different screen resolutions of Samsung Note 20 & iPhone 12 Pro
+I tested the site on mobile and the content adapted well to different screen resolutions for Samsung Note 20 & iPhone 12 Pro
 - Samsung Note 20
 
 <img width="1512" alt="Samsung-home" src="https://user-images.githubusercontent.com/93173575/172071838-f61a5bf9-5db7-473d-9862-59d568dc7055.png">
@@ -147,9 +146,8 @@ I tested the site on mobile and the content adapted well to different screen res
 - And also the iPhone 12 Pro
 
 <img width="1512" alt="iphone-home" src="https://user-images.githubusercontent.com/93173575/172072183-630e0ea2-46ec-4c99-a586-59874c55befb.png">
-<img width="1512" alt="iphone-menu" src="https://user-images.githubusercontent.com/93173575/172072188-e4ba8c1c-344
+<img width="1512" alt="iphone-menu" src="https://user-images.githubusercontent.com/93173575/172072723-4bdb3069-b2f6-40c5-8815-37d6c9141236.png">
 <img width="1512" alt="iphone-gallery" src="https://user-images.githubusercontent.com/93173575/172072191-9069e364-5736-4648-b031-0d01ff2b97ba.png">
-5-473c-9ac9-f1d1c903883c.png">
 <img width="1512" alt="iphone-signup" src="https://user-images.githubusercontent.com/93173575/172072196-141d7160-9e94-42c5-aad5-e2a95e3d9a97.png">
 <img width="1512" alt="iphone-subscribed" src="https://user-images.githubusercontent.com/93173575/172072199-c779fef4-f084-41a7-b907-914d81417164.png">
 
@@ -170,23 +168,74 @@ No errors where found across any pages [Jigsaw Validator](https://jigsaw.w3.org/
 <img width="1512" alt="Screenshot 2022-06-05 at 18 21 01" src="https://user-images.githubusercontent.com/93173575/172070882-c3f2352c-82ed-41cb-9aad-0661c34043f9.png">
 <img width="1512" alt="Screenshot 2022-06-05 at 18 21 36" src="https://user-images.githubusercontent.com/93173575/172070886-84a124c2-97fb-402c-8ec4-03371f9f1700.png">
 
+# Deployment
+
+## GitHub
+
+For deployment of the website to a live publicly accessible website, the following steps were required:
+
+- Confirmed that correct repository is selected as 'PP1'.
+- Select 'Settings'.
+- Scroll down to 'GitHub Pages' and click on 'Check it out here!'.
+- On the 'Source' section, select Branch as 'main' and click on 'Save'.
+- Your site is published at 'https://gordonbates.github.io/PP1/index.html'
+
+## Gitpod
+
+For deployment of the website to a local environment, the following steps are required:
+
+- Confirmed that correct repository is selected as 'PP1'.
+- To run a new Python server, open a terminal window and type the following code and hit enter:
+  `python3 -m http.server`
+- Once the Python server is running, you will be prompted to open a browser on port 8000 to show the output.
+
+# Cloning 
+
+To clone a copy of the code in the repository, the following steps are required:
+
+- Go to https://github.com/gordonbates and select the Repository called 'PP1'
+- Click on the button called 'Code" and a pop-out window will show options to Clone through:
+- 
+   - HTTPS
+   - SSH
+   - GitHub CLI
+
+1. On GitHub.com, navigate to the main page of the repository.
+2. Above the list of files, click Code.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click 'Clipboard to copy'. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click 'Use SSH', then click 'Clipboard to copy'. To clone a repository using GitHub CLI, click 'Use GitHub CLI', then click 'Clipboard to copy'.
+4. Open the Terminal.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type > `git clone` and then paste the URL you copied earlier.
+`$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
+
+7. Press Enter to create your local clone.
+`$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY 
+Cloning into PP1... remote: Counting objects: 10, done. 
+remote: Compressing objects: 100% (8/8), done. remove: Total 10 (delta 1), reused 10 (delta 1) Unpacking objects: 100% (10/10), done.`
+
+8. Repository Clone is now complete.
+
 ## Unfixed Bugs
 
 When testing on ios and Safari the Hamburger Menu was unresponsive.
 
-## Credits
+# Credits
 
-**- Content**
+##Content
 
-- The information text on the home page was souced from Wikipedia
-- The subscription success code was implemented following the tuturial [here.](https://codeconvey.com/registration-successful-message-html/) 
+- The information text on the home page was sourced from Wikipedia 
 - The icons on footer, logo(home), and subscription success box where taken from [FontAwesome](https://fontawesome.com/) 
 
-**- Media**
+## Media
 
 - The moon png is from [Open Source site](https://toppng.com/)
 - The astronaut png is from [Open Source site](https://pnghunter.com/)
 - Images in the gallery is from [Open Source site](https://publicdomainreview.org/)
+- HTML & CSS png is from [FavPNG](https://favpng.com/)
+
+### [Back To The Top](#welcome-to-the-apollo-11-1969-lunar-landing--)
+
+
 
 
 
