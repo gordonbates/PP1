@@ -103,7 +103,7 @@ The design was kept simple so it could be navigated and accessable to children a
 
 <img width="1512" alt="sign-up-page" src="https://user-images.githubusercontent.com/93173575/172065572-8a980ba2-cbfc-4f6a-9d76-8809d64d412c.png">
 
-- The site also has a subscribed card. Inside it contains a thank you message and a return to Home button after the submit button is clicked/pressed.
+- After the submit button is clicked/pressed, a subscribed card pops up. Inside, it contains a thank you message and a return to Home button.
 
 <img width="1512" alt="success-page" src="https://user-images.githubusercontent.com/93173575/172065609-c7a1d1cd-f2a4-4f03-b8cc-61496f8908a2.png">
 
@@ -134,8 +134,8 @@ I tested this site across Google Chrome, Firefox & Brave and the site fully resp
 
 ## Mobile
 
-I tested the site on mobile and the content adapted well to different screen resolutions for Samsung Note 20 & iPhone 12 Pro
-- Samsung Note 20
+I tested the site on mobile and the content adapted well to different screen resolutions for Samsung Note 20 & iPhone 12 Pro.
+### Samsung Note 20
 
 <img width="1512" alt="Samsung-home" src="https://user-images.githubusercontent.com/93173575/172071838-f61a5bf9-5db7-473d-9862-59d568dc7055.png">
 <img width="1512" alt="samsung-menu" src="https://user-images.githubusercontent.com/93173575/172072165-cbb34523-f8a8-4b59-9b17-23d11b4ea996.png">
@@ -143,7 +143,7 @@ I tested the site on mobile and the content adapted well to different screen res
 <img width="1512" alt="samsung-signup" src="https://user-images.githubusercontent.com/93173575/172071843-c725b532-0c1f-4226-b645-89604e7694ed.png">
 <img width="1512" alt="samsung-subscribed" src="https://user-images.githubusercontent.com/93173575/172071853-20bbe3b5-9683-4f9c-b2ea-4b50a256e774.png">
 
-- And also the iPhone 12 Pro
+### And also the iPhone 12 Pro
 
 <img width="1512" alt="iphone-home" src="https://user-images.githubusercontent.com/93173575/172072183-630e0ea2-46ec-4c99-a586-59874c55befb.png">
 <img width="1512" alt="iphone-menu" src="https://user-images.githubusercontent.com/93173575/172072723-4bdb3069-b2f6-40c5-8815-37d6c9141236.png">
@@ -221,7 +221,7 @@ When testing on ios and Safari the Hamburger Menu was unresponsive.
 
 # Credits
 
-##Content
+## Content
 
 - The information text on the home page was sourced from Wikipedia 
 - The icons on footer, logo(home), and subscription success box where taken from [FontAwesome](https://fontawesome.com/) 
