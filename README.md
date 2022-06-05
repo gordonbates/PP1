@@ -12,7 +12,7 @@ This was created as an informational site where new and old space adventures fro
 - [Design](#design)
 - [Features](#features)
 - [Languages](#languages)
-- [Programs](#programs)
+- [Programs Used](#programs-used)
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Cloning](#cloning)
@@ -107,30 +107,72 @@ The design was kept simple so it could be navigated and accessable to all childr
 
 <img width="1512" alt="success-page" src="https://user-images.githubusercontent.com/93173575/172065609-c7a1d1cd-f2a4-4f03-b8cc-61496f8908a2.png">
 
+# Languages
 
-## Features Left to Implement
+HTML & CSS was used in creating this site
 
-- A bigger and better gallery.
+![favpng_logo-cascading-style-sheets-html5-css3-prags-html5-und-css3-der-meisterkurs-html5-css3-javascript](https://user-images.githubusercontent.com/93173575/172070964-6031883d-65de-4ed1-9346-aef23fdbc7ea.png)
 
-## Testing
+# Programs Used
 
-I tested this site across Google Chrome, Firefox & Brave and the site fully worked across all three browsers and screen sizes and mobile devives.
+- [GitPod](https://gitpod.io/) was used as the main Language Editor for programming the website.
+- [GitHub](https://github.com/) was used to backup instances of GitPod Workspaces at intervals.
+- [Validator.w3](https://validator.w3.org/) was used to validate the HTML code.
+- [Jigsaw.w3](https://jigsaw.w3.org/) was used to validate the CSS code.
+- [Webfx](https://www.webfx.com/) was used to display the Hex color chart used in the Design section.
+- [Resize Images](https://aptonic.com/) is a plugin for the MacOS called Dropzone4 which was used for resizing the images for the site.
+
+
+# Testing
+
+## Desktop
+
+I tested this site across Google Chrome, Firefox & Brave and the site fully responsive across all three browsers.
+
+<img width="1512" alt="Chrome" src="https://user-images.githubusercontent.com/93173575/172071611-0e0cf8cc-db62-4cdb-8571-752a50dbd25b.png">
+<img width="1512" alt="Firefox" src="https://user-images.githubusercontent.com/93173575/172071612-6910498a-924f-4b91-90c2-104df3c950fe.png">
+<img width="1512" alt="Brave" src="https://user-images.githubusercontent.com/93173575/172071615-82e7a22f-f690-4758-8a55-2be0c66525d4.png">
+
+## Mobile
+
+I tested the site on mobile and the content adapted well to different screen resolutions of Samsung Note 20 & iPhone 12 Pro
+- Samsung Note 20
+
+<img width="1512" alt="Samsung-home" src="https://user-images.githubusercontent.com/93173575/172071838-f61a5bf9-5db7-473d-9862-59d568dc7055.png">
+<img width="1512" alt="samsung-menu" src="https://user-images.githubusercontent.com/93173575/172072165-cbb34523-f8a8-4b59-9b17-23d11b4ea996.png">
+<img width="1512" alt="samsung-gallery" src="https://user-images.githubusercontent.com/93173575/172071841-dace0d92-6b6f-43cc-a604-c64468006fb6.png">
+<img width="1512" alt="samsung-signup" src="https://user-images.githubusercontent.com/93173575/172071843-c725b532-0c1f-4226-b645-89604e7694ed.png">
+<img width="1512" alt="samsung-subscribed" src="https://user-images.githubusercontent.com/93173575/172071853-20bbe3b5-9683-4f9c-b2ea-4b50a256e774.png">
+
+- And also the iPhone 12 Pro
+
+<img width="1512" alt="iphone-home" src="https://user-images.githubusercontent.com/93173575/172072183-630e0ea2-46ec-4c99-a586-59874c55befb.png">
+<img width="1512" alt="iphone-menu" src="https://user-images.githubusercontent.com/93173575/172072188-e4ba8c1c-344
+<img width="1512" alt="iphone-gallery" src="https://user-images.githubusercontent.com/93173575/172072191-9069e364-5736-4648-b031-0d01ff2b97ba.png">
+5-473c-9ac9-f1d1c903883c.png">
+<img width="1512" alt="iphone-signup" src="https://user-images.githubusercontent.com/93173575/172072196-141d7160-9e94-42c5-aad5-e2a95e3d9a97.png">
+<img width="1512" alt="iphone-subscribed" src="https://user-images.githubusercontent.com/93173575/172072199-c779fef4-f084-41a7-b907-914d81417164.png">
+
 
 ## Validator Testing
 
 - HTML
 
-4 errors where found and I couldn't resolve them in time [WSC Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgordonbates.github.io%2FPP1%2Findex.html)
+4 errors where found relating to the Hamburger Menu [WSC Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgordonbates.github.io%2FPP1%2Findex.html)
+
+<img width="1414" alt="validatorhtm" src="https://user-images.githubusercontent.com/93173575/172070875-a61020c0-b3f2-4e28-8858-cc01abf50172.png">
 
 - CSS 
 
-No errors where found [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgordonbates.github.io%2FPP1%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+No errors where found across any pages [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgordonbates.github.io%2FPP1%2Fsignup.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+<img width="1512" alt="Screenshot 2022-06-05 at 18 20 20" src="https://user-images.githubusercontent.com/93173575/172070879-4da55a8a-990d-47be-bd3c-c46687efee90.png">
+<img width="1512" alt="Screenshot 2022-06-05 at 18 21 01" src="https://user-images.githubusercontent.com/93173575/172070882-c3f2352c-82ed-41cb-9aad-0661c34043f9.png">
+<img width="1512" alt="Screenshot 2022-06-05 at 18 21 36" src="https://user-images.githubusercontent.com/93173575/172070886-84a124c2-97fb-402c-8ec4-03371f9f1700.png">
 
 ## Unfixed Bugs
 
-Some unfixed bugs are spacing around homepage image and text. I couldn't implement padding correct around the text stacked vertically to the right of the image on the first picture.
-
-Two gallery images aren't scaled to the correct aspect ration creating a slight stretch.
+When testing on ios and Safari the Hamburger Menu was unresponsive.
 
 ## Credits
 
